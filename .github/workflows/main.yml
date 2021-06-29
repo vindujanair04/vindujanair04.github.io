@@ -25,9 +25,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: iqbalpb01/iqbalpb01.github.io
+          external_repository: ${{ secrets.USER_NAME }}/${{ secrets.USER_NAME }}.github.io
           publish_dir: ./public
-          user_name: iqbalpb01
+          user_name: ${{ secrets.USER_NAME }}
           user_email: ${{ secrets.TOKEN }}
           publish_branch: gh-pages
         #   cname: example.com
