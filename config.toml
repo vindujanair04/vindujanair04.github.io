@@ -106,9 +106,9 @@ weight = 1
 url = "https://github.com/vindujanair04/"
 
 [[params.social]]
-name = "Website"
-icon = "fa fa-website"
-weight = 1
+name = "Wixsite"
+icon = "fa fa-wixsite"
+weight = 4
 url = "https://www.vindujanair04.wixsite.com/v-n04/"
 
 [[params.social]]
